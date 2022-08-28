@@ -39,7 +39,8 @@ create table bank(name varchar(30), UserName varchar(30),password tinytext , Dat
 *My Sql code for creating Table Transaction:
 create table Transaction(credited int , debited int , username1 varchar(20), foreign key(username1) references bank(username));
 
-SOME Glimpse of this project are shown below
+Some Glimpse of this project are shown below
+__________________________________________________
 
 
 <img width="960" alt="DEMO1" src="https://user-images.githubusercontent.com/110014127/187087816-6f230993-c3f2-4816-baa9-1834c84bf2d1.png"><img width="960" alt="DEMO2" src="https://user-images.githubusercontent.com/110014127/187087821-5ae8a0b6-dcf3-463d-a492-da88e3d65447.png"><img width="960" alt="DEMO3" src="https://user-images.githubusercontent.com/110014127/187087834-994a3814-2f92-49dd-a6a5-d56422d92027.png">
